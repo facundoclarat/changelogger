@@ -19,7 +19,7 @@ $app['debug'] = true;
 $app->register(new Silex\Provider\ServiceControllerServiceProvider());
 
 $app['projects'] = $app->share(function () use ($app) {
-    $client = new GitHubClient();
+    $client = new \Github\Api\GitData();
     $client->setCredentials('','');
 
     $commits = new Models\Commits($client);

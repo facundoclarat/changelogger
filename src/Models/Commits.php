@@ -19,6 +19,6 @@ class Commits
         $commits = $this->client->repos->commits
             ->listCommitsOnRepository($this->owner, $project);
 
-        return $commits;
+        var_dump($commits) ;exit;
     }
 }

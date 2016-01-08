@@ -16,5 +16,6 @@ return array(
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Silex\\' => array($vendorDir . '/silex/silex/src/Silex'),
     'Models\\' => array($baseDir . '/src/Models'),
+    'Github\\' => array($vendorDir . '/knplabs/github-api/lib/Github'),
     'Controllers\\' => array($baseDir . '/src/Controllers'),
 );

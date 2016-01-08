@@ -15,6 +15,6 @@ class Projects
     public function changelog($project)
     {
         $latest = $this->commit->getLatest($project);
-        return json_encode($latest);
+        return json_encode($latest, true);
     }
 }
