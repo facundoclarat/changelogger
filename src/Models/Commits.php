@@ -6,7 +6,7 @@ class Commits
 {
     private $client;
     private $owner = 'fclarat';
-    
+
     public function __construct($client)
     {
         $this->client = $client;
@@ -19,6 +19,7 @@ class Commits
         $commits = $this->client->repos->commits
             ->listCommitsOnRepository($this->owner, $project);
 
-        var_dump($commits) ;exit;
+        //var_dump($commits) ;exit;
+        return $commits;
     }
 }
