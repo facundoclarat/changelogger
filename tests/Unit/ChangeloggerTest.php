@@ -2,7 +2,7 @@
 
 use Mockery as m;
 
-class ChangeloggerTest extends \PHPUnit_Framework_Testcase
+class ChangeloggerTest extends PHPUnit_Framework_Testcase
 {
 
     public function testGivenAProjectNameShouldReturnAHistoryLog()
