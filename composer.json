@@ -4,7 +4,8 @@
     "symfony/yaml" : "2.4@stable",
     "mockery/mockery": "*",
     "symfony/validator": "~2.3",
-    "knplabs/github-api": "~1.4"
+    "knplabs/github-api": "~1.4",
+    "phpunit/phpunit": "3.7.*"
   },
   "autoload": {
     "psr-4": {
